@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
+:root{
+    --primary-color:#12ac8e;
+
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fcf7f7;
+    background-color: #f4f4f9;
+}
+
+.section__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation */
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0077b6;
+    padding: 15px 20px;
+    color: white;
+}
+
+.nav__logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav__logo span {
+    color: #ffd60a;
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav_links .link a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav_links .link a:hover {
+    color: #ffd60a;
+}
+
+.btn {
+    background-color: #ffd60a;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ffc107;
+}
+
+/* Hero Section */
+.hero__section {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero__content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero__content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* About Section */
+.about__section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about__section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Footer Section */
+.footer__section {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
